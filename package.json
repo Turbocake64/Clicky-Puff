@@ -2,7 +2,7 @@
   "name": "clicky-puff",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://turbocake64.github.io/clicky-puff/",
+  "homepage": "https://turbocake64.github.io/clicky-puff-jr/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
