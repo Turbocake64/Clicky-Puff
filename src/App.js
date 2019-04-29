@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+// importing components
 import CharacterCard from "./components/CharacterCard";
 import Navbar from "./components/Navbar";
-// import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
+// importing the characters array from the json file
 import characters from "./characters.json";
+//importing css stylings
 import './App.css';
 
 class App extends Component {
@@ -18,10 +20,12 @@ class App extends Component {
     guesses: []
   };
 
+  // componentWillMount shuffles the CharacterCards before the DOM is loaded
   componentWillMount() {
     this.shuffle(characters);
   };
 
+  // Here we use the Fisher-Yates alogrithm to randomize the characters array
   shuffle(arr) {
     var j, x, i;
     for (i = arr.length -1; i > 0; i--) {
@@ -34,32 +38,38 @@ class App extends Component {
   };
 
   handleBtnClick = characterId => {
-    // cloning the old state and making a new state
-    const newState = {...this.state};
+    // renaming this.state so we don't have to write it out each time
+    const powerPuff = {...this.state};
 
-    if(newState.guesses.includes(characterId)) {
+    // in this if statement we check to see if the player lost, log their loss, and clear the guesses array & score
+    if(powerPuff.guesses.includes(characterId)) {
       console.log("You lose");
-      newState.losses = newState.losses +1;
-      newState.guesses = [];
-      newState.score = 0
+      powerPuff.losses = powerPuff.losses +1;
+      powerPuff.guesses = [];
+      powerPuff.score = 0
     }
+    // if they didn't lose, we increment their score and add the character to the guesses array
     else
-    { newState.score = newState.score +1;
-      newState.guesses.push(characterId)
+    { powerPuff.score = powerPuff.score +1;
+      powerPuff.guesses.push(characterId)
     }
-    // copying over the characters array
+    // here we shuffle the character cards again
     this.shuffle(characters);
 
-    if (newState.score > newState.highScore) {
-      newState.highScore = newState.score
+    // we check the current score against the high score, increasing high score if it is lower than current score.
+    if (powerPuff.score > powerPuff.highScore) {
+      powerPuff.highScore = powerPuff.score
     }
 
-    this.setState(newState);
+    // finally we use setState to update the state to the virtual DOM
+    this.setState(powerPuff);
   }
 
 
+  // renders react elements into the DOM
   render() {
     return (
+      // the parent div into which our components will be rendered
       <div className="background">
         {/* Setting the score, losses, & highScore in the Navbar */}
         <Navbar 
@@ -69,10 +79,10 @@ class App extends Component {
         </Navbar>
 
       <Wrapper>
-        {/* <Title>Clicky Puff!</Title> */}
         {/* Map over this.state.characters and render a CharacterCard component for each character object */}
         {this.state.characters.map(character => (
           <CharacterCard 
+            // each card will inherit an id, a key, a name, and an image from its respective array object
             handleBtnClick={this.handleBtnClick}
             id={character.id}
             key={character.id}

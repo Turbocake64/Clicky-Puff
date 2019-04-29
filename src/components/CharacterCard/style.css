@@ -1,13 +1,20 @@
 .card {
   background: white;
   border-radius: 2px;
-  border: 3px;
+  border: 3px solid black;
   height: 200px;
   margin: 1rem;
   position: relative;
   width: 200px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  box-shadow: 0 3px 6px #862c00, 0 3px 6px #771002;
   text-align: left;
+}
+
+.card:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.05); 
+  transition:all 0.3s ease;
 }
 
 .card > .img-container {
@@ -17,6 +24,7 @@
   text-align: bottom;
   background:transparent;
 }
+
 .card > .img-container > img {
   width: 100%;
   background: white;
