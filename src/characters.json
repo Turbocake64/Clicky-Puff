@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Blossom",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/2/23/Blossom-pic.png/revision/latest?cb=20190329151816"
+        "image": "./assets/images/Blossom-pic.png"
     },
     {
         "id": 2,
         "name": "Bubbles",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/7/7b/Bubbles-pic.png/revision/latest?cb=20190329151545"
+        "image": "./assets/images/Bubbles-pic.png"
     },
     {
         "id": 3,
         "name": "Buttercup",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/8/81/Buttercup-0.jpg/revision/latest?cb=20190329125344"
+        "image": "/assets/images/Buttercup-pic.jpg"
     },
     {
         "id": 4,
         "name": "Brick",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/d/dc/Brick2.jpg/revision/latest?cb=20110303094634"
+        "image": "/assets/images/Brick-pic.jpg"
     },
     {
         "id": 5,
         "name": "Boomer",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/4/4e/Boomer2.jpg/revision/latest?cb=20110303094620"
+        "image": "/assets/images/Boomer-pic.jpg"
     },
     {
         "id": 6,
         "name": "Butch",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/e/ed/Butch2.jpg/revision/latest?cb=20110303094645"
+        "image": "/assets/images/Butch-pic.png"
     },
     {
         "id": 7,
         "name": "Professor Utonium",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/f/f6/Utonium.gif/revision/latest?cb=20130517084054"
+        "image": "/assets/images/Professor-pic.jpg"
     },
     {
         "id": 8,
         "name": "The Mayor",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/2/20/Mayor.png/revision/latest?cb=20130517084037"
+        "image": "/assets/images/Mayor-pic.png"
     },
     {
         "id": 9,
         "name": "Sara Bellum",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/3/3f/Sara_Bellum.png/revision/latest?cb=20120508013326"
+        "image": "/assets/images/Sara_Bellum-pic.png"
     },
     {
         "id": 10,
         "name": "Princes Morebucks",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/a/a9/Princess-pic.png/revision/latest/scale-to-width-down/300?cb=20130517082820"
+        "image": "/assets/images/Princess-pic.png"
     },
     {
         "id": 11,
         "name": "Mojo Jojo",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/3/34/Mojo_Jojo.png/revision/latest/scale-to-width-down/350?cb=20080723224208"
+        "image": "/assets/images/Mojo_jojo-pic.png"
     },
     {
         "id": 12,
         "name": "HIM",
-        "image": "https://vignette.wikia.nocookie.net/powerpuff/images/7/74/HIM-pic.png/revision/latest?cb=20181118023822"
+        "image": "/assets/images/HIM-pic.png"
     }
 ]

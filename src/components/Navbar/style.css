@@ -1,0 +1,76 @@
+.navbar {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(253,176,216, 0.8);
+    width: 100%;
+    z-index: 99;
+    height: 50px;
+
+  }
+
+  .partitle {
+      
+      color: black;
+
+      font-family: 'Modak', cursive;
+      letter-spacing: 2px;
+      font-size: 30px;
+      padding-left: 30px;
+      margin-top: 10px;
+      
+  }
+  a {
+    text-decoration: none;
+    color: black
+
+}
+a:visited {
+  color:black
+}
+.partitle:hover {
+
+  -ms-transform: scale(1.2); /* IE 9 */
+     -webkit-transform: scale(1.2); /* Safari 3-8 */
+     transform: scale(1.2); 
+     transition:all 0.5s ease;
+}
+
+.par {
+   color: black;
+   font-family: 'Modak', cursive;
+   font-size: 20px;
+   padding-right: 30px;
+}
+
+.par1:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  transition:all 0.5s ease;
+  color: white;
+}
+
+.par2:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  transition:all 0.5s ease;
+  color: red;
+}
+
+.par3:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  transition:all 0.5s ease;
+  color: skyblue;
+}
+
+.par4:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  transition:all 0.5s ease;
+  color: limegreen;
+}

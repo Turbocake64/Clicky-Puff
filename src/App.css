@@ -31,3 +31,11 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73bb21b7-aef3-4052-9046-a6332ef706d5/db8qmn6-c63fef82-e87e-41a8-b893-7c88ccf332e1.png/v1/fill/w_1024,h_576,strp/ppg___the_city_of_townsville_by_lwb_the_fluffymystic_db8qmn6-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNzNiYjIxYjctYWVmMy00MDUyLTkwNDYtYTYzMzJlZjcwNmQ1XC9kYjhxbW42LWM2M2ZlZjgyLWU4N2UtNDFhOC1iODkzLTdjODhjY2YzMzJlMS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.-2aEMpVyBv5X5Urey4yZ8drMC179dLvR4kRMCQ2LRkk");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: fixed;
+}
