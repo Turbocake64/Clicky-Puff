@@ -4,7 +4,7 @@ import "./style.css";
 function Navbar(props) {
     return (
         <nav className="navbar">
-            <div><a href="/"><p className="partitle">Clicky Puff!</p></a></div>
+            <div><a href="#" onClick={() =>window.location.reload()}><p className="partitle">Clicky Puff!</p></a></div>
 
             <div className="clicktostart"><p className="par par1">Click Someone to Get Started!</p></div>
             <div><p className=" par par2">Score: {props.score}</p> </div>

@@ -12,51 +12,51 @@
     {
         "id": 3,
         "name": "Buttercup",
-        "image": "/assets/images/Buttercup-pic.jpg"
+        "image": "./assets/images/Buttercup-pic.jpg"
     },
     {
         "id": 4,
         "name": "Brick",
-        "image": "/assets/images/Brick-pic.jpg"
+        "image": "./assets/images/Brick-pic.jpg"
     },
     {
         "id": 5,
         "name": "Boomer",
-        "image": "/assets/images/Boomer-pic.png"
+        "image": "./assets/images/Boomer-pic.png"
     },
     {
         "id": 6,
         "name": "Butch",
-        "image": "/assets/images/Butch-pic.png"
+        "image": "./assets/images/Butch-pic.png"
     },
     {
         "id": 7,
         "name": "Professor Utonium",
-        "image": "/assets/images/Professor-pic.jpg"
+        "image": "./assets/images/Professor-pic.jpg"
     },
     {
         "id": 8,
         "name": "The Mayor",
-        "image": "/assets/images/Mayor-pic.png"
+        "image": "./assets/images/Mayor-pic.png"
     },
     {
         "id": 9,
         "name": "Sara Bellum",
-        "image": "/assets/images/Sara_Bellum-pic.png"
+        "image": "./assets/images/Sara_Bellum-pic.png"
     },
     {
         "id": 10,
         "name": "Princes Morebucks",
-        "image": "/assets/images/Princess-pic.png"
+        "image": "./assets/images/Princess-pic.png"
     },
     {
         "id": 11,
         "name": "Mojo Jojo",
-        "image": "/assets/images/Mojo_jojo-pic.png"
+        "image": "./assets/images/Mojo_jojo-pic.png"
     },
     {
         "id": 12,
         "name": "HIM",
-        "image": "/assets/images/HIM-pic.png"
+        "image": "./assets/images/HIM-pic.png"
     }
 ]
